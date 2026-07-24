@@ -2,8 +2,11 @@ import Herosection from "./Herosection";
 // import SignIn from "./SignIn";
 
 function App() {
-  // return <SignIn />;
-  return <Herosection />;
+  return (
+    <>
+      <Herosection />;
+    </>
+  );
 }
 
 export default App;
