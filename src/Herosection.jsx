@@ -5,7 +5,7 @@ import { ArrowRight } from "lucide-react";
 // import "SignIn" from "./SignIn"
 function Herosection() {
   return (
-    <div className="flex bg-[url(..\public\BG.png)] justify-center px-6 min-h-screen">
+    <div className="flex bg-[url(BG.png)] justify-center px-6 min-h-screen">
       <div className="flex flex-row items-center justify-between w-full gap-5 absolute p-4 font-bold">
         <div className="ml-4 text-sky-400 text-2xl">
           <SiTailwindcss />
