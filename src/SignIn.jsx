@@ -12,7 +12,7 @@ function SignIn() {
 
         {/* Heading */}
         <h2 className="mt-6 text-center text-3xl font-bold tracking-tight text-white">
-          Sign in to yourfffff account{" "}
+          Sign in to yourddddddddddfffff account{" "}
         </h2>
 
         {/* Form */}
