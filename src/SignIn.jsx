@@ -4,8 +4,8 @@ import { SiTailwindcss } from "react-icons/si";
 function SignIn() {
   return (
     <div
-      style={{ backgroundColor: "#101828" }}
-      className="flex items-center justify-center px-6"
+      style={ { backgroundColor: "#101828" } }
+      className="flex items-center justify-center px-6 min-h-screen"
     >
       <div className="w-full max-w-md">
         {/* Logo */}
