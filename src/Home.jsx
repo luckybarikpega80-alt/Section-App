@@ -1,6 +1,6 @@
 import { Link } from "react-router";
 
-const Home = () => {
+function Home() {
   return (
     <section className="min-h-screen bg-[#0E1628] flex flex-col items-center py-10">
       {/* Heading */}
@@ -70,6 +70,24 @@ const Home = () => {
         >
           BENTO 2
         </Link>
+        <Link
+          to="/price1"
+          className="w-52 h-40 bg-amber-500 rounded-3xl flex items-center justify-center text-3xl font-bold text-[#0E1628] hover:scale-105 transition"
+        >
+          PRICE 1
+        </Link>
+        <Link
+          to="/price2"
+          className="w-52 h-40 bg-amber-500 rounded-3xl flex items-center justify-center text-3xl font-bold text-[#0E1628] hover:scale-105 transition"
+        >
+          PRICE 2
+        </Link>
+        <Link
+          to="/news1"
+          className="w-52 h-40 bg-amber-500 rounded-3xl flex items-center justify-center text-3xl font-bold text-[#0E1628] hover:scale-105 transition"
+        >
+          NEWS 1
+        </Link>
       </div>
 
       {/* Footer */}
@@ -78,6 +96,6 @@ const Home = () => {
       </p>
     </section>
   );
-};
+}
 
 export default Home;

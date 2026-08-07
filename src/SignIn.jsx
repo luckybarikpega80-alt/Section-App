@@ -1,7 +1,7 @@
 import { Link } from "react-router";
 import { SiTailwindcss } from "react-icons/si";
 
-export const SignIn = () => {
+export function SignIn() {
   return (
     <div
       style={{ backgroundColor: "#101828" }}
@@ -85,7 +85,7 @@ export const SignIn = () => {
       </div>
     </div>
   );
-};
+}
 
 export default function SignIn1() {
   return (

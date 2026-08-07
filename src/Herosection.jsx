@@ -2,6 +2,7 @@ import { Link } from "react-router";
 import { SiTailwindcss } from "react-icons/si";
 import SignIn from "./SignIn";
 import { ArrowRight } from "lucide-react";
+
 function Herosection() {
   return (
     <div className="flex bg-[url(BG.png)] justify-center px-6 min-h-screen">

@@ -13,6 +13,9 @@ import CtaSection from "./CtaSection";
 import CtaSection2 from "./CtaSection2";
 import Bentogrids from "./Bentogrids";
 import Bentogrids2 from "./Bentogrids2";
+import Price1 from "./Price1";
+import Price2 from "./Price2";
+import News1 from "./News1";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -31,7 +34,9 @@ createRoot(document.getElementById("root")).render(
 
         <Route path="/bentogrids" element={<Bentogrids />} />
         <Route path="/bentogrids2" element={<Bentogrids2 />} />
-        <Route path="/app" element={<App />} />
+        <Route path="/price1" element={<Price1 />} />
+        <Route path="/price2" element={<Price2 />} />
+        <Route path="/news1" element={<News1 />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
