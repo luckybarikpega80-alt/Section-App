@@ -9,19 +9,19 @@ function Bentogrids() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-14">
-          <p className="text-indigo-400 font-semibold">Deploy faster</p>
+          <p className="text-indigo-400 text-sm font-semibold">Deploy faster</p>
 
-          <h1 className="text-5xl font-bold text-white mt-2">
+          <h1 className="text-white text-5xl font-bold mt-2 leading-tight">
             Everything you need
             <br />
             to deploy your app
           </h1>
         </div>
 
-        {/* Grid */}
+        {/* Bento Grid */}
         <div className="grid grid-cols-3 gap-6">
           {/* LEFT CARD */}
-          <div className="row-span-2 rounded-2xl bg-slate-800 overflow-hidden">
+          <div className="bg-[#1E293B] rounded-2xl overflow-hidden row-span-2 border border-slate-700">
             <div className="p-6">
               <h2 className="text-white text-xl font-bold">Mobile friendly</h2>
 
@@ -31,22 +31,22 @@ function Bentogrids() {
               </p>
             </div>
 
-            <img src={image1} className="w-full h-80 object-cover" alt="" />
+            <img src={image1} alt="" className="w-full object-cover mt-4" />
           </div>
 
-          {/* TOP MIDDLE */}
-          <div className="rounded-2xl bg-slate-800 p-6">
+          {/* PERFORMANCE */}
+          <div className="bg-[#1E293B] rounded-2xl border border-slate-700 p-6">
             <h2 className="text-white text-xl font-bold">Performance</h2>
 
             <p className="text-gray-400 mt-3">
               Lorem ipsum dolor sit amet consectetur adipisicing elit.
             </p>
 
-            <img src={image4} className="mt-6 w-full" alt="" />
+            <img src={image4} alt="" className="w-full mt-6" />
           </div>
 
           {/* RIGHT CARD */}
-          <div className="row-span-2 rounded-2xl bg-slate-800 overflow-hidden">
+          <div className="bg-[#1E293B] rounded-2xl overflow-hidden row-span-2 border border-slate-700">
             <div className="p-6">
               <h2 className="text-white text-xl font-bold">Powerful APIs</h2>
 
@@ -56,16 +56,19 @@ function Bentogrids() {
               </p>
             </div>
 
-            <img src={image2} className="w-full h-80 object-cover" alt="" />
+            <img src={image2} alt="" className="w-full object-cover mt-4" />
           </div>
 
-          {/* BOTTOM MIDDLE */}
-          <div className="rounded-2xl bg-slate-800 p-6">
+          {/* SECURITY */}
+          <div className="bg-[#1E293B] rounded-2xl border border-slate-700 p-6">
             <h2 className="text-white text-xl font-bold">Security</h2>
 
-            <p className="text-gray-400 mt-3">Morbi viverra dui mi arcu sed.</p>
+            <p className="text-gray-400 mt-3">
+              Morbi viverra dui mi arcu sed. Tellus semper adipiscing
+              suspendisse semper morbi.
+            </p>
 
-            <img src={image3} className="mt-6 w-full" alt="" />
+            <img src={image3} alt="" className="w-full mt-6" />
           </div>
         </div>
       </div>
