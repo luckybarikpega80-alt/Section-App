@@ -10,7 +10,9 @@ function Bentogrids() {
       <div className="max-w-7xl mx-auto">
         {/* Heading */}
         <div className="text-center mb-14">
-          <p className="text-indigo-400 text-sm font-semibold">Deploy faster</p>
+          <p className="text-indigo-400 text-sm font-semibold cursor-pointer hover:">
+            Deploy faster
+          </p>
 
           <h1 className="text-white text-5xl font-bold mt-2 leading-tight">
             Everything you need
@@ -30,9 +32,7 @@ function Bentogrids() {
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo.
               </p>
-              <div className="border border-slate-700  h-151 mt-4 rounded-lg overflow-hidden">
-
-              </div>
+              <div className="border border-slate-700  h-151 mt-4 rounded-lg overflow-hidden"></div>
             </div>
 
             {/* <img src={image1} alt="" className="w-full object-cover mt-4" /> */}
