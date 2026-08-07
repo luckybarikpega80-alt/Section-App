@@ -1,10 +1,10 @@
 import { Link } from "react-router";
 import { SiTailwindcss } from "react-icons/si";
 
-function SignIn() {
+export const SignIn = () => {
   return (
     <div
-      style={ { backgroundColor: "#101828" } }
+      style={{ backgroundColor: "#101828" }}
       className="flex items-center justify-center px-6 min-h-screen"
     >
       <div className="w-full max-w-md">
@@ -85,6 +85,12 @@ function SignIn() {
       </div>
     </div>
   );
-}
+};
 
-export default SignIn;
+export default function SignIn1() {
+  return (
+    <div className="bg-gray-900 w-full h-full flex flex-col items-center justify-center ">
+      <SignIn />
+    </div>
+  );
+}
