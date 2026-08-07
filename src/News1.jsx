@@ -1,6 +1,6 @@
 function Newsletter() {
   return (
-    <section className="bg-[#0F172A] w-full py-20 px-6">
+    <section className="bg-[#0F172A] w-full py-20 px-6 min-h-screen ">
       <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-3 gap-16 items-start">
         {/* Left Side */}
         <div>
