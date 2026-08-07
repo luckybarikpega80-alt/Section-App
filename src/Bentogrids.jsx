@@ -1,3 +1,4 @@
+import { Cloud, Shield, Database, Check } from "lucide-react";
 import image1 from "./image1.png";
 import image2 from "./image2.png";
 import image3 from "./image3.png";
@@ -35,7 +36,7 @@ function Bentogrids() {
           </div>
 
           {/* PERFORMANCE */}
-          <div className="bg-[#1E293B] rounded-2xl border border-slate-700 p-6">
+          <div className="bg-[#1E293B] h-90 rounded-2xl border border-slate-700 p-6">
             <h2 className="text-white text-xl font-bold">Performance</h2>
 
             <p className="text-gray-400 mt-3">
@@ -56,19 +57,46 @@ function Bentogrids() {
               </p>
             </div>
 
-            <img src={image2} alt="" className="w-full object-cover mt-4" />
+            <img src={image3} alt="" className="w-full mt-6" />
+            {/* <img src={image2} alt="" className="w-full object-cover mt-4" /> */}
           </div>
 
           {/* SECURITY */}
-          <div className="bg-[#1E293B] rounded-2xl border border-slate-700 p-6">
-            <h2 className="text-white text-xl font-bold">Security</h2>
+          <div className="bg-[#1E293B] h-90 rounded-2xl border border-slate-700 p-6">
+            <>
+              {/* Text */}
+              <h2 className="text-white text-2xl font-bold">Security</h2>
 
-            <p className="text-gray-400 mt-3">
-              Morbi viverra dui mi arcu sed. Tellus semper adipiscing
-              suspendisse semper morbi.
-            </p>
+              <p className="text-gray-400 mt-3 leading-7 max-w-sm">
+                Morbi viverra dui mi arcu sed. Tellus semper adipiscing
+                suspendisse semper morbi.
+              </p>
 
-            <img src={image3} alt="" className="w-full mt-6" />
+              {/* Icons */}
+              <div className="flex items-center justify-between mt-10">
+                {/* Cloud */}
+                <div className="w-16 h-16 rounded-full bg-slate-600 flex items-center justify-center">
+                  <Cloud className="text-white w-7 h-7" />
+                </div>
+
+                {/* Shield */}
+                <div className="relative">
+                  <div className="w-20 h-20 rounded-full bg-slate-500 flex items-center justify-center m-0">
+                    <Shield className="text-white w-10 h-10" />
+                  </div>
+
+                  {/* Check badge */}
+                  <div className="absolute bottom-2 right-2 w-6 h-6 rounded-full bg-indigo-600 flex items-center justify-center">
+                    <Check className="text-white w-4 h-4" />
+                  </div>
+                </div>
+
+                {/* Database */}
+                <div className="w-16 h-16 rounded-full bg-slate-600 flex items-center justify-center">
+                  <Database className="text-white w-7 h-7" />
+                </div>
+              </div>
+            </>
           </div>
         </div>
       </div>
