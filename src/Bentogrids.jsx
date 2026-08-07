@@ -5,49 +5,68 @@ import image4 from "./image4.png";
 
 function Bentogrids() {
   return (
-    <section className="bg-[#0B1120] min-h-screen px-6 py-20">
-      <div className="max-w-7xl mx-auto grid grid-cols-3 gap-6">
-        {/* 1 - Heading & Paragraph */}
-        <div className="bg-slate-800 rounded-2xl p-8">
-          <h2 className="text-3xl font-bold text-white">Simple heading</h2>
+    <section className="min-h-screen bg-[#0B1120] py-20 px-6">
+      <div className="max-w-7xl mx-auto">
+        {/* Heading */}
+        <div className="text-center mb-14">
+          <p className="text-indigo-400 font-semibold">Deploy faster</p>
 
-          <p className="text-gray-400 mt-4">
-            This is where your paragraph will go.
-          </p>
+          <h1 className="text-5xl font-bold text-white mt-2">
+            Everything you need
+            <br />
+            to deploy your app
+          </h1>
         </div>
 
-        {/* 2 - Image */}
-        <div className="bg-slate-800 rounded-2xl overflow-hidden">
-          <img src={image1} alt="" className="w-full h-full object-cover" />
-        </div>
+        {/* Grid */}
+        <div className="grid grid-cols-3 gap-6">
+          {/* LEFT CARD */}
+          <div className="row-span-2 rounded-2xl bg-slate-800 overflow-hidden">
+            <div className="p-6">
+              <h2 className="text-white text-xl font-bold">Mobile friendly</h2>
 
-        {/* 3 - Heading & Paragraph */}
-        <div className="bg-slate-800 rounded-2xl p-8">
-          <h2 className="text-3xl font-bold text-white">Another heading</h2>
+              <p className="text-gray-400 mt-3">
+                Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
+                lorem cupidatat commodo.
+              </p>
+            </div>
 
-          <p className="text-gray-400 mt-4">Write your description here.</p>
-        </div>
+            <img src={image1} className="w-full h-80 object-cover" alt="" />
+          </div>
 
-        {/* 4 - Image */}
-        <div className="bg-slate-800 rounded-2xl overflow-hidden">
-          <img src={image2} alt="" className="w-full h-full object-cover" />
-        </div>
+          {/* TOP MIDDLE */}
+          <div className="rounded-2xl bg-slate-800 p-6">
+            <h2 className="text-white text-xl font-bold">Performance</h2>
 
-        {/* 5 - Image */}
-        <div className="bg-slate-800 rounded-2xl overflow-hidden">
-          <img src={image3} alt="" className="w-full h-full object-cover" />
-        </div>
+            <p className="text-gray-400 mt-3">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
 
-        {/* 6 - Heading & Paragraph */}
-        <div className="bg-slate-800 rounded-2xl p-8">
-          <h2 className="text-3xl font-bold text-white">Third heading</h2>
+            <img src={image4} className="mt-6 w-full" alt="" />
+          </div>
 
-          <p className="text-gray-400 mt-4">Another paragraph goes here.</p>
-        </div>
+          {/* RIGHT CARD */}
+          <div className="row-span-2 rounded-2xl bg-slate-800 overflow-hidden">
+            <div className="p-6">
+              <h2 className="text-white text-xl font-bold">Powerful APIs</h2>
 
-        {/* 7 - Image */}
-        <div className="bg-slate-800 rounded-2xl overflow-hidden col-span-3">
-          <img src={image4} alt="" className="w-full h-full object-cover" />
+              <p className="text-gray-400 mt-3">
+                Sit quis amet rutrum tellus ullamcorper ultrices libero dolor
+                eget.
+              </p>
+            </div>
+
+            <img src={image2} className="w-full h-80 object-cover" alt="" />
+          </div>
+
+          {/* BOTTOM MIDDLE */}
+          <div className="rounded-2xl bg-slate-800 p-6">
+            <h2 className="text-white text-xl font-bold">Security</h2>
+
+            <p className="text-gray-400 mt-3">Morbi viverra dui mi arcu sed.</p>
+
+            <img src={image3} className="mt-6 w-full" alt="" />
+          </div>
         </div>
       </div>
     </section>
