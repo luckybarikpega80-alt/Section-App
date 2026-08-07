@@ -12,6 +12,7 @@ import Herosection2 from "./Herosection2";
 import CtaSection from "./CtaSection";
 import CtaSection2 from "./CtaSection2";
 import Bentogrids from "./Bentogrids";
+import Bentogrids2 from "./Bentogrids2";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -29,7 +30,7 @@ createRoot(document.getElementById("root")).render(
         <Route path="/cta2" element={<CtaSection2 />} />
 
         <Route path="/bentogrids" element={<Bentogrids />} />
-
+        <Route path="/bentogrids2" element={<Bentogrids2 />} />
         <Route path="/app" element={<App />} />
       </Routes>
     </BrowserRouter>

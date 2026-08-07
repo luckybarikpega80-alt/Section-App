@@ -30,7 +30,7 @@ function Bentogrids() {
                 Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui
                 lorem cupidatat commodo.
               </p>
-              <div className="border border-slate-700 h-151 mt-4 rounded-lg overflow-hidden">
+              <div className="border border-slate-700  h-151 mt-4 rounded-lg overflow-hidden">
 
               </div>
             </div>

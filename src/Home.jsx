@@ -5,17 +5,13 @@ const Home = () => {
     <section className="min-h-screen bg-[#0E1628] flex flex-col items-center py-10">
       {/* Heading */}
       <div className="text-center mb-12">
-        <h1 className="text-8xl font-black text-purple-700 leading-none">
-          LUSTER JNR
+        <h1 className="text-7xl font-black text-purple-700 leading-none">
+          LUSTER JNR TECH AND DESIGN
         </h1>
 
-        <h2 className="text-6xl font-black text-purple-700 leading-none mt-2">
-          TECH AND DESIGN
+        <h2 className="text-5xl font-black text-white leading-none mt-2">
+          ASSIGNMENT ON SECTION APP
         </h2>
-
-        <h3 className="text-4xl font-extrabold tracking-[10px] text-purple-600 mt-3">
-          SECTION PAGE
-        </h3>
       </div>
 
       {/* Grid */}
@@ -66,17 +62,17 @@ const Home = () => {
           to="/bentogrids"
           className="w-52 h-40 bg-amber-400 rounded-3xl flex items-center justify-center text-3xl font-bold text-[#0E1628] hover:scale-105 transition"
         >
-          BENTO
+          BENTO 1
         </Link>
-
         <Link
-          to="/app"
+          to="/bentogrids2"
           className="w-52 h-40 bg-amber-400 rounded-3xl flex items-center justify-center text-3xl font-bold text-[#0E1628] hover:scale-105 transition"
         >
-          APP
+          BENTO 2
         </Link>
 
         {/* Empty Boxes */}
+        {/* <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
         <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
         <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
         <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
@@ -85,12 +81,11 @@ const Home = () => {
         <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
         <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
         <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
-        <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
-        <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div>
+        <div className="w-52 h-40 bg-amber-400 rounded-3xl"></div> */}
       </div>
 
       {/* Footer */}
-      <p className="text-white italic text-4xl mt-16">
+      <p className="text-white italic text-2xl mt-16">
         copy right. Alright right reserve luster jnr tech and design 2026
       </p>
     </section>
